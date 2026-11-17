@@ -103,6 +103,10 @@ After changing environment variables, stop the running command with **Ctrl+C** a
 5. Click the workspace name in the sidebar to edit it. The name is saved in MongoDB and shared with signed-in team members.
 6. Use a person's row menu to edit details, change active status, or delete the account (with confirmation).
 
+## Deploy on Vercel
+
+Deploy the client and Express API as two Vercel projects from the same GitHub repository. The full step-by-step instructions, including MongoDB Atlas and environment variable setup, are in [docs/VERCEL_DEPLOY.md](docs/VERCEL_DEPLOY.md).
+
 ## Features
 
 - Email/password registration and login with bcrypt password hashing and 7-day JWT sessions
